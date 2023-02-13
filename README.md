@@ -6,6 +6,8 @@
 
 This is a basic next.js starter template with themes support in the new `app` directory.
 
+**Check the [Live Demo](https://next-app-themes.vercel.app)**
+
 ### Main
 
 - [Next.js](https://nextjs.org)
@@ -49,7 +51,7 @@ You don't need to use tailwind `dark:` selectors for dark mode styles, since it'
 
 You can also style any [radix primitive](https://www.radix-ui.com) component using the `rdx-*:` prefix in tailwind classes. See more in [tailwindcss-radix](https://github.com/ecklf/tailwindcss-radix)
 
-### Clone it and do whatever you want with it
+**Clone it and do whatever you want with it**
 
 ```bash
 git clone https://github.com/gabxyz/next-app-themes
