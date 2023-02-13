@@ -1,5 +1,7 @@
 # next-app-themes
 
+![](https://github.com/gabxyz/next-app-themes/blob/main/public/demo.gif)
+
 ## What is this
 
 This is a basic next.js starter template with themes support in the new `app` directory.
