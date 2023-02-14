@@ -113,7 +113,7 @@ export default function Home() {
         {stack.map(({ category, tools }) => (
           <li
             key={category}
-            className="mt-1 flex flex-wrap items-center text-gray-12"
+            className="mt-2 flex flex-wrap items-center text-gray-12"
           >
             <span className="flex items-center font-medium">
               {category}
@@ -131,7 +131,7 @@ export default function Home() {
                   {toolName}
                 </a>
                 {tools[tools.length - 1]?.toolName !== toolName && (
-                  <span className="mx-1 mb-0.5 inline-flex h-1 w-1 flex-none rounded-full bg-gray-11"></span>
+                  <span className="mx-1.5 mb-0.5 inline-flex h-1 w-1 flex-none rounded-full bg-gray-11"></span>
                 )}
               </div>
             ))}
