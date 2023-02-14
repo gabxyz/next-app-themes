@@ -5,6 +5,50 @@ import clsx from "clsx"
 
 import Providers from "@/components/providers"
 
+export const metadata = {
+  title: {
+    default: "next-app-themes",
+    template: "%s | next-app-themes",
+  },
+  description: "next.js app directory template with themes support",
+  creator: "gabxyz",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  keywords: [
+    "Next.js",
+    "React",
+    "Typescript",
+    "JavaScript",
+    "TailwindCSS",
+    "next-themes",
+    "App Directory",
+    "Radix Primitives",
+    "Radix Colors",
+    "Template",
+    "Website Color Themes",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "next-app-themes",
+    description: "next.js app directory template with themes support",
+    url: "https://next-app-themes.vercel.app",
+    siteName: "next-app-themes",
+    images: [
+      {
+        url: "https://next-app-themes.vercel.app/og.png",
+        width: 1200,
+        height: 600,
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
+}
+
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
