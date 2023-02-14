@@ -35,6 +35,10 @@ This is a basic next.js starter template with themes support in the new `app` di
 - [prettier](https://prettier.io)
 - [eslint](https://eslint.org)
 
+### Others
+
+- [Vercel Analytics](https://vercel.com/analytics)
+
 Also some custom transitions from [Carbon Design System](https://carbondesignsystem.com/guidelines/motion/overview)
 
 ## How does it work

@@ -73,7 +73,6 @@ const stack: Stack[] = [
       },
     ],
   },
-
   {
     category: "utilities",
     tools: [
@@ -89,6 +88,15 @@ const stack: Stack[] = [
       { toolName: "eslint", toolLink: "https://eslint.org" },
     ],
   },
+  {
+    category: "others",
+    tools: [
+      {
+        toolName: "vercel analytics",
+        toolLink: "https://vercel.com/analytics",
+      },
+    ],
+  },
 ]
 
 export default function Home() {
@@ -100,7 +108,7 @@ export default function Home() {
         href="https://github.com/gabxyz/next-app-themes"
         className={clsx(
           "bg-gradient-to-r from-purple-11 to-indigo-11 bg-clip-text text-xl font-bold text-transparent",
-          "hover:opacity-80 motion-safe:duration-150 motion-safe:ease-productive-standard",
+          "select-none hover:opacity-80 motion-safe:duration-150 motion-safe:ease-productive-standard",
         )}
       >
         next-app-themes

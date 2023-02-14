@@ -3,6 +3,7 @@ import "@/styles/globals.css"
 import { Inter as FontSans } from "@next/font/google"
 import clsx from "clsx"
 
+import { AnalyticsWrapper } from "@/components/analytics"
 import Providers from "@/components/providers"
 
 export const metadata = {
@@ -40,8 +41,8 @@ export const metadata = {
     images: [
       {
         url: "https://next-app-themes.vercel.app/og.png",
-        width: 1200,
-        height: 600,
+        width: 1920,
+        height: 1080,
       },
     ],
     locale: "en-US",
@@ -69,6 +70,7 @@ export default function RootLayout({
       <head />
       <body className={clsx("font-sans", fontSans.variable)}>
         <Providers>{children}</Providers>
+        <AnalyticsWrapper />
       </body>
     </html>
   )
