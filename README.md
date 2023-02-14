@@ -55,14 +55,10 @@ You don't need to use tailwind `dark:` selectors for dark mode styles, since it'
 
 You can also style any [radix primitive](https://www.radix-ui.com) component using the `rdx-*:` prefix in tailwind classes. See more in [tailwindcss-radix](https://github.com/ecklf/tailwindcss-radix)
 
-**Clone it**
+**Run the following command to clone template using `pnpm` as your package manager**
 
 ```bash
-git clone https://github.com/gabxyz/next-app-themes [your app name]
+pnpm dlx create-next-app my-app --example "https://github.com/gabxyz/next-app-themes"
 ```
 
-**Install the dependencies**
-
-```bash
-pnpm i
-```
+_Now you can do whatever you want with it._
