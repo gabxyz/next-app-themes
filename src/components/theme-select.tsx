@@ -38,6 +38,7 @@ const ThemeSelect = () => {
   return (
     <DropdownMenu.Root open={open} onOpenChange={setOpen}>
       <DropdownMenu.Trigger
+        aria-label="Trigger for the website color theme selection menu"
         className={clsx(
           "flex h-7 items-center gap-1 px-1.5 text-sm font-medium",
           "rounded-lg border border-gray-7 bg-gray-4 text-gray-11",
@@ -71,6 +72,7 @@ const ThemeSelect = () => {
                   {themes.map(({ value, icon }) => (
                     <DropdownMenu.RadioItem
                       key={value}
+                      aria-label={`${value} color scheme`}
                       value={value}
                       className={clsx(
                         "group flex h-7 w-28 items-center justify-between gap-1 px-2 text-sm font-medium",
