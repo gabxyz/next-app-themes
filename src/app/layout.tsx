@@ -37,10 +37,10 @@ export const metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-    twitter: {
-      title: "gabxyz",
-      card: "summary_large_image",
-    },
+  },
+  twitter: {
+    title: "gabxyz",
+    card: "summary_large_image",
   },
 }
 
