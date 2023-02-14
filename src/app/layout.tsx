@@ -11,8 +11,6 @@ export const metadata = {
     default: "next-app-themes",
     template: "%s | next-app-themes",
   },
-  description: "next.js app directory template with themes support",
-  creator: "gabxyz",
   icons: {
     icon: "/favicon.ico",
   },
@@ -32,21 +30,17 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
-  },
-  openGraph: {
-    title: "next-app-themes",
-    description: "next.js app directory template with themes support",
-    url: "https://next-app-themes.vercel.app",
-    siteName: "next-app-themes",
-    images: [
-      {
-        url: "https://next-app-themes.vercel.app/og.png",
-        width: 1920,
-        height: 1080,
-      },
-    ],
-    locale: "en-US",
-    type: "website",
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+    twitter: {
+      title: "gabxyz",
+      card: "summary_large_image",
+    },
   },
 }
 

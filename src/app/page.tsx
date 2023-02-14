@@ -98,6 +98,24 @@ const stack: Stack[] = [
     ],
   },
 ]
+export const metadata = {
+  description: "next.js app directory template with themes support",
+  openGraph: {
+    title: "next-app-themes",
+    description: "next.js app directory template with themes support",
+    url: "https://next-app-themes.vercel.app",
+    siteName: "next-app-themes",
+    images: [
+      {
+        url: "https://next-app-themes.vercel.app/og.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
+}
 
 export default function Home() {
   return (
