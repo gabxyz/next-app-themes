@@ -12,7 +12,7 @@ export const metadata = {
     template: "%s | next-app-themes",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.png",
   },
   keywords: [
     "Next.js",
